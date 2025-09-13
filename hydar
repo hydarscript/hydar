@@ -229,6 +229,16 @@ local Button = Tab2:Button({
 })
 
 local Button = Tab2:Button({
+    Title = "The Darkones",
+    Desc = "Keyless Good",
+    Locked = false,
+    Callback = function()
+        print("clicked")
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/refs/heads/main/99%20Nights%20In%20The%20Forest%20GUI'))()
+    end
+})
+
+local Button = Tab2:Button({
     Title = "Lunor Hub",
     Desc = "Auto Farm Good",
     Locked = false,
@@ -249,8 +259,8 @@ local Button = Tab2:Button({
 })
 
 local Button = Tab2:Button({
-    Title = "Avarage",
-    Desc = "Key",
+    Title = "Speed hub",
+    Desc = "Avaeage",
     Locked = false,
     Callback = function()
         print("clicked")
